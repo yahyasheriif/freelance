@@ -41,5 +41,38 @@ python manage.py createsuperuser
 6. Run the development server:
 bash
 python manage.py runserver
-```
+
+API Endpoints
+
+- `/api/invoices/` - List, create, update, delete invoices  
+- `/api/clients/` - List, create, update, delete clients  
+- `/api/payments/` - List, create, update, delete payments  
+- `/api/items/` - List, create, update, delete items  
+
+Authentication endpoints (via `dj-rest-auth`):
+
+- `/auth/login/`  
+- `/auth/logout/`  
+- `/auth/registration/`  
+- `/auth/password/reset/` etc.
+
+---
+
+Testing
+
+You can use Postman or similar tools to test the API endpoints.  
+Make sure to register and login to get JWT tokens for authenticated requests.
+
+---
+
+License
+
+This project is open-source and free to use.
+
+---
+
+Contact
+
+Developed by Yahya Sheriif  
+GitHub: [yahyasheriif](https://github.com/yahyasheriif)
 
